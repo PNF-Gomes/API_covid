@@ -19,8 +19,9 @@ post:'/covid'
 
 get: '/covid' 
    
-get:'/covid/:noteId'
+get:'/covid/{cityName}'
 
-put: '/notes/:cityName'
+put: '/notes/{cityName}'
 
-delete: '/notes/:cityName'
+delete: '/notes/{cityName}'
+
